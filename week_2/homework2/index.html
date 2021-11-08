@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>데이터베이스 실습</title>
+  </head>
+  <body>
+    <h1>Random Number Game</h1>
+        <div>
+            <h3 class="js-title">
+            Generate a number between 0 and <span id = "value">
+            </span></h3>
+            <datalist id="number">
+                <option value"50"></option>
+                <option value="100"></option>
+                <option value="150"></option>
+                <option value="200"></option>
+            </datalist>
+            <input
+                list="number"
+                id="js-range"
+                type="range"
+                min="10"
+                max="200"
+                value="10"
+                step="5"
+            />
+    <form id="user">
+      <div>
+        <label>Guess the number:</label>
+        <input id="usernumber" type="number"/>
+        <input type="submit" value="Play!">
+      </div>
+    </form>
+    <div id="js-result">
+      <span></span>
+    </div>
+    <script type="text/javascript" src="index.js"></script>
+  </body>
+</html>
