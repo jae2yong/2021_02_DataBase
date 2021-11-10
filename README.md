@@ -60,7 +60,7 @@ userPassword filed의 int형이며 null 포함하지 않고 default로 NULL값�
 </pre>
 
 ## 8주차 DB 테이블 내용
-###8주차 DB 테이블은 DEPARTMENT, EMPLOYEE 로 구성되어있다.
+### 8주차 DB 테이블은 DEPARTMENT, EMPLOYEE 로 구성되어있다.
 #### DEPARTMENT 테이블의 Field는 Dname, Dnumber, Mgr_ssn, Mgr_start_date로 구성되어 있다.
 <pre>
 <code>
