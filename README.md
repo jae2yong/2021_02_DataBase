@@ -85,3 +85,20 @@ Super_ssn field의 Type은 char(9) 이며 null 포함하며 default로 NULL값�
 Dno field의 Type은 int 이며 null 포함하지 않고 default로 NULL값을 가진다.
 </code>
 </pre>
+
+## 10주차 DB 테이블 내용
+### 10주차 DB 테이블은 DEPARTMENT, dept_locations, USER 로 구성되어있다.
+#### DEPARTMENT 테이블의 Field는 Dname, Dnumber 로 구성되어 있다.
+<pre>
+<code>
+Dname field의 Type은 varchar(15)이며 null 포함하지 않고 default로 NULL값을 가지며 Unique Key를 가진다.
+Dnumber field의 int 형이며 null 포함하지 않고 default로 NULL값을 가지고 Primary key를 가진다.
+</code>
+</pre>
+#### dept_locations 테이블의 Field는 Dname, Dlocations 로 구성되어 있다.
+<pre>
+<code>
+Dname field의 Type은 varchar(15)이며 null 포함하지 않고 default로 NULL값을 가지며 Primary Key를 가진다.
+Dlocations field의 varchar(15) 이며 null 포함하지 않고 default로 NULL값을 가지고 Primary key를 가진다.
+</code>
+</pre>
