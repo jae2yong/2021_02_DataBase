@@ -102,3 +102,11 @@ Dname field의 Type은 varchar(15)이며 null 포함하지 않고 default로 NUL
 Dlocations field의 varchar(15) 이며 null 포함하지 않고 default로 NULL값을 가지고 Primary key를 가진다.
 </code>
 </pre>
+#### USERS 테이블의 Field는 Dname, Dlocations 로 구성되어 있다.
+<pre>
+<code>
+ID field의 Type은 varchar(20)이며 null 포함하지 않고 default로 NULL값을 가지며 Primary Key를 가진다.
+Password field의 varchar(20) 이며 null 포함하지 않고 default로 NULL값을 가진다.
+Role field의 varchar(5) 이며 null 포함하지 않고 default로 NULL값을 가진다.
+</code>
+</pre>
