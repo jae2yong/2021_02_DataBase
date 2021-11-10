@@ -40,11 +40,11 @@ const pool = mysql.createPool(
 _ **데이터베이스** 실습은 재미 ~~없어요~~있어요.
 
 ## 3주차 DB 테이블 내용
+### 3주차 DB 테이블은 STUDENT, USERS 로 구성되어있으며
+#### STUDENT 테이블 Field는 Name, STudentNUmber, Class, Major 로 구성되어 있다.
 
 <pre>
 <code>
-### 3주차 DB 테이블은 STUDENT, USERS 로 구성되어있으며
-#### STUDENT 테이블 Field는 Name, STudentNUmber, Class, Major 로 구성되어 있다.
 Name field의 Type은 varchar(30)이며 null 포함하지 않고 default로 NULL값을 가진다.
 STudentNUmber filed의 int형이며 null 포함하지 않고 default로 NULL값을 가지고 Primary key를 가진다.
 Class field의 Type은 char(1)이며 null 포함하지 않고 default로 NULL값을 가진다.
