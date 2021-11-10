@@ -70,7 +70,7 @@ Mgr_ssn field의 Type은 char(9)이며 null 포함하지 않고 default로 NULL�
 Mgr_start_date 의 Type은 date 이며 null 포함하며 default로 NULL값을 가진다.
 </code>
 </pre>
-#### USERS 테이블 Field는 Fname, Minit, Lname, Ssn, Bdate, Address, Sex, Salary, Super_ssn, Dno로 구성되어 있다.
+#### EMPLOYEE 테이블 Field는 Fname, Minit, Lname, Ssn, Bdate, Address, Sex, Salary, Super_ssn, Dno로 구성되어 있다.
 <pre>
 <code>
 Fname field의 Type은 varchar(10)이며 null 포함하지 않고 default로 NULL값을 가진다.
