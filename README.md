@@ -39,7 +39,7 @@ const pool = mysql.createPool(
 ## 텍스트 강조
 _ **데이터베이스** 실습은 재미 ~~없어요~~있어요.
 
-## 3주차 DB 테이블 내용
+## DB 테이블 내용
 ### 3주차 DB 테이블은 STUDENT, USERS 로 구성되어있다.
 #### STUDENT 테이블 Field는 Name, STudentNUmber, Class, Major로 구성되어 있다.
 
