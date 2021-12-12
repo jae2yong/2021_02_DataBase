@@ -1,0 +1,89 @@
+<h1>관리자페이지</h1>
+
+<h2>사용자 정보</h2>
+
+<form nmae="user" method="post" action='/'>
+    <div>
+        <label for="userID">UserID</label>
+        <input id="userID" name="userID" type="text" placeholder="UserID">
+    </div>
+    <div>
+        <label for="flight_number">Flight_number</label>
+        <input id="sflight_number" name="flight_number" type="text" placeholder="Flight_number">
+    </div>
+    <div>
+        <label for="date">Date</label>
+        <input id="date" name="date" type="text" placeholder="Date">
+    </div>
+    <div>
+        <label for="seat_number">Seat_number</label>
+        <input id="seat_number" name="seat_number" type="text" placeholder="Seat_number">
+    </div>
+    <div>
+        <label for="customer_name">Customer_name</label>
+        <input id="customer_name" name="customver_name" type="text" placeholder="Customver_name">
+    </div>
+    <div>
+        <label for="customer_phone">Customer_phone</label>
+        <input id="customer_phone" name="customer_phone" type="text" placeholder="Customer_phone">
+    </div>
+    <div>
+        <label for="super_ssn">Supser_ssn</label>
+        <input id="super_ssn" name="super_ssn" type="text" placeholder="Supser_ssn">
+    </div>
+    <div>
+    <div>
+        <input type="submit" value="삽입">
+    </div>
+</form>
+<h2>공항 정보</h2>
+<form id="airport" method="post" action='/'>
+    <div>
+        <label for="airport_code">Airport_code</label>
+        <input id="airport_code" name="airport_code" type="text" required placeholder="Airport_code">
+    </div>
+    <div>
+        <label for="name">Name</label>
+        <input id="name" name="name" type="text" required placeholder="Name">
+    </div>
+    <div>
+        <label for="city">City</label>
+        <input id="city" name="city" type="text" required placeholder="City">
+    </div>
+        <div>
+        <label for="state">State</label>
+        <input id="state" name="state" type="text" required placeholder="State">
+    </div>
+    <div>
+        <input type="submit" value="삽입">
+    </div>
+    <h2>항공기 정보</h2>
+<form id="airplane" method="post" action='/'>
+    <div>
+        <label for="airplane_id">Airplane_id</label>
+        <input id="airplane_id" name="airplane_id" type="text" required placeholder="Airplane_id">
+    </div>
+    <div>
+        <label for="total_number_of_seats">Total_number_of_seats</label>
+        <input id="total_number_of_seats" name="total_number_of_seats" type="text" required placeholder="Total_number_of_seats">
+    </div>
+    <div>
+        <label for="airplane_type">airplane_type</label>
+        <input id="airplane_type" name="airplane_type" type="text" required placeholder="airplane_type">
+    <div>
+        <input type="submit" value="삽입">
+    </div>
+    <h2>항공편 정보</h2>
+<form id="flight" method="post" action='/'>
+    <div>
+        <label for="flight_number">Flight_number</label>
+        <input id="flight_number" name="flight_number" type="text" required placeholder="Flight_number">
+    </div>
+    <div>
+        <label for="airline">airline</label>
+        <input id="airline" name="airline" type="text" required placeholder="airline">
+    </div>
+    <div>
+        <input type="submit" value="삽입">
+    </div>
+</form>
