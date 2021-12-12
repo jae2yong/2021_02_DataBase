@@ -1,0 +1,50 @@
+<h1>관리자 수정 페이지</h1>
+<h2>공항 정보 수정 테이블</h2>
+<table>
+    <tr>
+        <td>Airport_code</td>
+        <td>Name</td>
+        <td>City</td>
+    </tr>
+    {{#each airport}}
+       <form method="post" action='/update/admin'>
+       <td><input type="text" name="dname" placeholder={{Airport_code}}></td>
+        <td>{{Name}}</td>
+        <td>{{City}}</td>
+        <td><input type="submit" value="수정"></td>
+      </tr>
+    </form>
+    {{/each}}
+</table>
+<h2>항공기 정보 수정 테이블</h2>
+<table>
+    <tr>
+        <td>Airplane_id</td>
+        <td>Total_number_of_seats</td>
+        <td>Airplane_type</td>
+    </tr>
+    {{#each airplane}}
+       <form method="post" action='/update/admin'>
+       <td><input type="text" name="dname" placeholder={{Airplane_id}}></td>
+        <td>{{Total_number_of_seats}}</td>
+        <td>{{Airplane_type}}</td>
+        <td><input type="submit" value="수정"></td>
+      </tr>
+    </form>
+    {{/each}}
+</table>
+<h2>항공편 정보 수정 테이블</h2>
+<table>
+    <tr>
+        <td>Flight_number</td>
+        <td>Airline</td>
+    </tr>
+    {{#each flight}}
+       <form method="post" action='/update/admin'>
+       <td><input type="text" name="dname" placeholder={{Flight_number}}></td>
+        <td>{{Airline}}</td>
+        <td><input type="submit" value="수정"></td>
+      </tr>
+    </form>
+    {{/each}}
+</table>

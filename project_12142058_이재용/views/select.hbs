@@ -1,0 +1,21 @@
+<h1>사용자 예약 조회 페이지</h1>
+<table>
+    <tr>
+        <td>UserID</td>
+        <td>Flight_number</td>
+        <td>Date</td>
+        <td>Seat_number</td>
+        <td>Customer_name</td>
+        <td>Customer_phone</td>
+    </tr>
+    {{#each user}}
+    <tr>
+        <td>{{UserID}}</td>
+        <td>{{Flight_number}}</td>
+        <td>{{Date}}</td>
+        <td>{{Seat_number}}</td>
+        <td>{{Customer_name}}</td>
+        <td>{{Customer_phone}}</td>
+    </tr>
+    {{/each}}
+</table>
